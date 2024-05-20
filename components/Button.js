@@ -23,10 +23,10 @@ export default function Button({ label, theme, onPress }) {
 
   return (
     <View style={styles.buttonContainer}>
-        <Pressable style={styles.button} onPress={onPress}>
-          <Text style={styles.buttonLabel}>{label}</Text>
-        </Pressable>
-      </View>
+      <Pressable style={styles.button} onPress={onPress}>
+        <Text style={styles.buttonLabel}>{label}</Text>
+      </Pressable>
+    </View>
   );
 }
 
